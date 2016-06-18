@@ -11,7 +11,7 @@ def count_nucleotides(sequence):
     a_count = sequence.count("a")
     c_count = sequence.count("c")
     g_count = sequence.count("g")
-    t_count = sequence.count("g")
-    return "{} {} {} {}".format(a_count, c_count, t_count, g_count)
+    t_count = sequence.count("t")
+    return "{} {} {} {}".format(a_count, c_count, g_count, t_count)
 
 print(count_nucleotides(seq))
